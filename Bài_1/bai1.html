@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/39893cbee0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./bai1.css">
+    <title>Document</title>
+</head>
+
+<body onload="loadData()">
+    <div>
+        <div id="popup" class="popup">
+            <div class="popup__container">
+                <div class="imgX">
+                    <img id="btn-close"
+                        src="https://e7.pngegg.com/pngimages/844/786/png-clipart-maine-computer-icons-close-icon-logo-law.png"
+                        alt="">
+                </div>
+                <div class="container__ Name">
+                    <p>Họ và tên: </p>
+                    <input type="text" name="" id="addName">
+                </div>
+                <div class="container__ Age">
+                    <p>Tuổi: </p>
+                    <input type="number" name="" id="addAge">
+                </div>
+                <div class="container__ Date">
+                    <p>Ngày tạo: </p>
+                    <input type="text" name="" id="addDate">
+                </div>
+                <div class="container__button">
+                    <button onclick="saveData()" id="btnAdd__popup">Thêm</button>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="container">
+            <!-- <div class="infor">
+                <div class="infor__img">
+                    <img src="https://i.pinimg.com/originals/51/f6/fb/51f6fb256629fc755b8870c801092942.png" alt="">
+                </div>
+                <div class="infor__detail">
+                    <div class="detail__nameAndAge">
+                        <div class="nameAndAge__name">
+                            <p id="name">Nguyễn Hữu Trường</p>
+                        </div>
+                        <div class="nameAndAge__age">
+                            <p>Tuổi: </p>
+                            <p id="age">21</p>
+                        </div>
+                    </div>
+                    <div class="date">
+                        <p>Ngày thêm vào: </p>
+                        <p id="date">01/02/2021</p>
+                    </div>
+                </div>
+                <div class="btnDelete">
+                    <button onclick="xoa()">Delete</button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="btnAdd">
+        <button id="btn-add"><i class="fas fa-plus-circle"></i></button>
+    </div>
+</body>
+<script src="./bai1.js"></script>
+
+</html>
